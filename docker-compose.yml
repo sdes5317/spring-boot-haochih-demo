@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  db:
+    image: sdes5317/haochih-spring-boot:latest
+    restart: always
+    ports:
+      - 19100:19100
