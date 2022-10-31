@@ -27,6 +27,15 @@ sudo bash docker-image-build.sh
 sudo docker-compose up -d
 ```
 
+## H2 Create Table SQL
+```
+CREATE TABLE CURRENCY(
+    ID BIGINT PRIMARY KEY AUTO_INCREMENT,
+    CODE VARCHAR(255) NOT NULL,
+    CHINESE_NAME VARCHAR(255) NOT NULL
+);
+```
+
 ## Todo list
 - [ ] 全域錯誤處理
 - [ ] log紀錄
