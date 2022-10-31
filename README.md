@@ -14,11 +14,15 @@
 git checkout https://github.com/sdes5317/spring-boot-haochih-demo.git
 cd spring-boot-haochih-demo
 ```
-2. Build docker image
+2. 打包jar
+```
+mvn package
+```
+3. 發布 docker image
 ```
 sudo bash docker-image-build.sh
 ```
-3. Run docker compose
+4. Run docker compose
 ```
 sudo docker-compose up -d
 ```
