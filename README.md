@@ -20,5 +20,10 @@ sudo bash docker-image-build.sh
 ```
 3. Run docker compose
 ```
-sudo docker-compose up
+sudo docker-compose up -d
 ```
+
+## Todo list
+- [ ] 全域錯誤處理
+- [ ] log紀錄
+- [ ] 簡化佈署腳本
