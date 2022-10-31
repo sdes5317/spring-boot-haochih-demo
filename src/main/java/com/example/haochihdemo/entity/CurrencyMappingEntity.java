@@ -3,7 +3,7 @@ package com.example.haochihdemo.entity;
 import javax.persistence.*;
 import java.io.Serializable;
 
-@Entity(name = "Currency")
+@Entity(name = "CurrencyMapping")
 public class CurrencyMappingEntity implements Serializable {
   public CurrencyMappingEntity(String code, String traditionalChinese) {
     this.code = code;
@@ -12,8 +12,6 @@ public class CurrencyMappingEntity implements Serializable {
 
   public CurrencyMappingEntity() {
   }
-
-
 
   @Column(unique = true)
   private String code;
